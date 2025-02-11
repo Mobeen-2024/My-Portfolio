@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { FiDownload } from "react-icons/fi";
 
-// Components 
+// Components
 import Social from "@/components/Social";
 import { Component } from "lucide-react";
 
@@ -36,7 +36,12 @@ const Home = () => {
                 <FiDownload className="text-xl" />
               </Button>
               <div className="mb-8 xl:mb-8">
-                <Social />
+                <Social
+                  containerStyles="flex  gap-6"
+                  iconStyling={
+                    "w-9 h-9 border border-accent rounded-full justify-center item-center text-accent text-base hover:bg-accent hover:text-primary hover:transition-all duration-500"
+                  }
+                />
               </div>
             </div>
           </div>

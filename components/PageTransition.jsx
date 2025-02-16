@@ -1,4 +1,6 @@
 "use client";
+
+import { Link } from "next/link";
 import { AnimatePresence, motion } from "motion/react";
 import { usePathname } from "next/navigation";
 
@@ -8,7 +10,7 @@ const PageTransition = ({ children }) => {
   const pathname = usePathname();
   return (
     <AnimatePresence>
-      <div key={pathname}>
+      <div key={`${pathname}`}>
         <motion.div
           initial={{ opacity: 1 }}
           animate={{

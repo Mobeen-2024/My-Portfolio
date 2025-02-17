@@ -51,7 +51,7 @@ const MobileNav = () => {
           {links.map((link, index) => {
             return (
               <Link
-                href={link.path}
+                href={`${link.path}`}
                 key={index}
                 className={`${
                   link.path === pathname &&

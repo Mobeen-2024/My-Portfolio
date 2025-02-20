@@ -5,6 +5,7 @@ export const content = [
   "./pages/**/*.{js,ts,jsx,tsx,mdx}",
   "./components/**/*.{js,ts,jsx,tsx,mdx}",
   "./app/**/*.{js,ts,jsx,tsx,mdx}",
+  "./src/**/*.{html,js,jsx,ts,tsx}", // Adjust the paths according to your project structure
 ];
 export const prefix = "";
 export const theme = {

@@ -28,37 +28,37 @@ const experiance = {
   icon: "/assets/work/file.svg",
   title: "My Experiance",
   description:
-    "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis molestiae recusandae sapiente perferendis porro obcaecati.",
+    " I am a student . I like to do new this and i enjoy learning new this and the experiance that i had all this year is below.",
   item: [
     {
-      company: "Team Solutioon Inc.",
-      position: "Full Stack Developer",
-      duration: "2022 - Present",
+      company: "Web Development",
+      position: "Junior Developer",
+      duration: "Dec 2023 - Present",
     },
     {
-      company: "Web Design Studio",
-      position: "Full End  Developer Intern",
-      duration: "Summer 2021",
+      company: "Arduino",
+      position: "Self",
+      duration: "Summer 2023",
     },
     {
-      company: "E-commerce Startup",
-      position: "Freelance Web Developer",
-      duration: "2020 - 2021",
+      company: "Elecronics Repairing",
+      position: "Self",
+      duration: "2022 - 2023",
     },
     {
-      company: "Tech Academy",
-      position: "Teaching Assigment",
-      duration: "2020 - 2021",
+      company: "The Jannah Institude",
+      position: "Communication",
+      duration: "2021 - 2022",
     },
     {
-      company: "Digital Agent",
-      position: "UI / UX",
+      company: "The Super Wing Collage",
+      position: "Team-Head",
+      duration: "2019 - 2021",
+    },
+    {
+      company: "The Educator",
+      position: "Computor Science - Student and Teacher.",
       duration: "2018 - 2019",
-    },
-    {
-      company: "Software Deveploment Firm",
-      position: "Junior DEveloper",
-      duration: "2017 - 2018",
     },
   ],
 };
@@ -67,38 +67,37 @@ const experiance = {
 const education = {
   icon: "/assets/work/file.svg",
   title: "My Education",
-  description:
-    "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis molestiae recusandae sapiente perferendis porro obcaecati.",
+  description: " I like to learn AI in future and its uses in dailylife. ",
   item: [
     {
-      institution: "Online Course Platform",
-      degree: "Full Stack Web Development Bootcamp",
-      duration: "2023",
+      institution: "JS Mastery",
+      degree: " React in Deep  and Next.Js ",
+      duration: "2025",
     },
     {
-      institution: "Codeacdemy",
-      degree: "Front-End Track",
-      duration: "2022",
+      institution: "Chia or React",
+      degree: "React Framework and Tailwind",
+      duration: "2024",
     },
     {
-      institution: "Online Course",
-      degree: "Promramming Course",
-      duration: "2020 - 2021",
+      institution: "Apna Collage",
+      degree: "HTML , CSS and JavaScript",
+      duration: "Dec 2023 - 2024",
     },
     {
-      institution: "Tech Institute",
-      degree: "Certified Web Developer",
-      duration: "2019",
+      institution: "IELTS Academic",
+      degree: "B1",
+      duration: "25 March 2023",
     },
     {
-      institution: "Design School",
-      degree: "Diploma in Graphic Design",
-      duration: "2016 - 2018",
+      institution: "The Super Wing Collage",
+      degree: "The Intermidate",
+      duration: "2021 - 2023",
     },
     {
-      institution: "Community Collage",
-      degree: "Associate Degree In Computer Science",
-      duration: "2016 - 2018",
+      institution: "The Educator",
+      degree: "Matric Education",
+      duration: "2018 - 2020",
     },
   ],
 };
@@ -107,7 +106,7 @@ const education = {
 const skills = {
   title: "My Skills",
   description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi beatae quaerat impedit consequuntur, sint cumque est cupiditate, reiciendis fugiat neque voluptates perspiciatis.",
+    " I am a Junior Developer in the Web Development. The skills that i learn and have are below .",
   skillList: [
     {
       icon: <FaHtml5 />,
@@ -148,7 +147,7 @@ const skills = {
 const about = {
   title: "About me",
   description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae atque optio excepturi, provident.",
+    "My all information is available her and feel free to contact me.",
   info: [
     {
       fieldName: "Name",
@@ -156,15 +155,11 @@ const about = {
     },
     {
       fieldName: "Phone",
-      fieldValue: "(+92) 319 2130435",
+      fieldValue: "(+92) 328 5566943",
     },
     {
       fieldName: "Experiance",
       fieldValue: "2+ Years",
-    },
-    {
-      fieldName: "InLinked",
-      fieldValue: "m.mobeen.2024@gmail.com",
     },
     {
       fieldName: "Nationality",
